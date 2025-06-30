@@ -21,11 +21,11 @@ for x in rf :
 dt=pd.DataFrame(di,columns=["current_artist","first_recommendation","second_recommendation","third_recommendation"])
 #print(di)
 print(dt.columns)'''
-#user = 'root'
-#passw = '2004'
-#host = '127.0.0.1'
-#port = 3306
-#database = 'auth_system'
+#user = 'your_user'
+#passw = 'your_pass'
+#host = 'your_host'
+#port = port_num
+#database = 'database_system'
 
 #engine = create_engine(f'mysql+pymysql://{user}:{passw}@{host}:{port}/{database}')
 
@@ -36,11 +36,11 @@ print(dt.columns)'''
 #print("Data inserted successfully!")
 
 '''
-user = 'root'
-passw = '2004'
-host = '127.0.0.1'
-port = 3306
-database = 'auth_system'
+user = 'your_user'
+passw = 'your_pass'
+host = 'your_host'
+port = port_num
+database = 'database_system'
 
 # Create SQLAlchemy engine for MySQL
 engine = create_engine(f'mysql+pymysql://{user}:{passw}@{host}:{port}/{database}')
