@@ -20,10 +20,10 @@ app.use(session({
 
 // Database connection
 const db = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: '2004',
-    database: 'auth_system'
+    host: 'your-host',
+    user: 'your-root',
+    password: 'your-pass',
+    database: 'database_system'
 });
 
 db.connect((err) => {
